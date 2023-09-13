@@ -2,7 +2,7 @@ package com.prueba.ejercicios;
 
 import java.util.Arrays;
 
-public class cadenas_texto {
+public class cadenas_funciones {
 
     public static void main(String[] args) {
         String texto = "franco";
@@ -46,6 +46,7 @@ public class cadenas_texto {
 
             result.append(textoInvertido2[i]);
         }
+
         System.out.println(result);
 
         System.out.println(new StringBuilder(texto3).reverse());
